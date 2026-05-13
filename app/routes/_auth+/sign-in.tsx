@@ -18,13 +18,13 @@ type ActionData = {
 };
 
 export const meta = mergeMeta(() => [
-  { title: 'Sora - Sign In' },
-  { name: 'description', content: 'Sign in to your Sora account.' },
-  { property: 'og:title', content: 'Sora - Sign In' },
-  { property: 'og:description', content: 'Sign in to your Sora account.' },
+  { title: 'RSR - Sign In' },
+  { name: 'description', content: 'Sign in to your RSR account.' },
+  { property: 'og:title', content: 'RSR - Sign In' },
+  { property: 'og:description', content: 'Sign in to your RSR account.' },
   { property: 'og:url', content: 'https://sorachill.vercel.app/sign-in' },
-  { property: 'twitter:title', content: 'Sora - Sign In' },
-  { property: 'twitter:description', content: 'Sign in to your Sora account.' },
+  { property: 'twitter:title', content: 'RSR - Sign In' },
+  { property: 'twitter:description', content: 'Sign in to your RSR account.' },
 ]);
 
 export const action = async ({ request }: ActionFunctionArgs) => {
