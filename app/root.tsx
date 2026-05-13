@@ -215,26 +215,26 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
 };
 
 export const meta: MetaFunction<typeof loader> = () => [
-  { title: 'Sora' },
-  { name: 'description', content: 'Watching movies, series, anime and more in Sora' },
+  { title: 'RSR' },
+  { name: 'description', content: 'Watching movies, series, anime and more in RSR' },
   {
     name: 'keywords',
     content:
-      'Sora, Sora Movies, Sora Series, Sora Anime, Sora Chill, SoraChill, watch movies, watch series, watch anime, watch movies online, watch series online, watch anime online, free movies, free series, free anime, free movies online, free series online, free anime online, watch movies free, watch series free, watch anime free, watch movies online free, watch series online free, watch anime online free',
+      'RSR, Rsr Movies, Rsr Series, Rsr Anime, Rsr Chill, RsrChill, watch movies, watch series, watch anime, watch movies online, watch series online, watch anime online, free movies, free series, free anime, free movies online, free series online, free anime online, watch movies free, watch series free, watch anime free, watch movies online free, watch series online free, watch anime online free',
   },
   { property: 'og:url', content: 'https://sorachill.vercel.app' },
-  { property: 'og:title', content: 'Sora' },
+  { property: 'og:title', content: 'RSR' },
   { property: 'og:image', content: 'https://sorachill.vercel.app/api/ogimage?it=home' },
-  { property: 'og:description', content: 'Watching movies, series, anime and more in Sora' },
+  { property: 'og:description', content: 'Watching movies, series, anime and more in RSR' },
   { property: 'og:type', content: 'website' },
-  { property: 'og:site_name', content: 'Sora' },
+  { property: 'og:site_name', content: 'RSR' },
   { property: 'og:image:width', content: '1200' },
   { property: 'og:image:height', content: '630' },
   { name: 'twitter:card', content: 'summary_large_image' },
-  { name: 'twitter:site', content: '@sora' },
+  { name: 'twitter:site', content: '@RSR' },
   { name: 'twitter:image', content: 'https://sorachill.vercel.app/api/ogimage?it=home' },
-  { name: 'twitter:title', content: 'Sora' },
-  { name: 'twitter:description', content: 'Watching movies, series, anime and more in Sora' },
+  { name: 'twitter:title', content: 'RSR' },
+  { name: 'twitter:description', content: 'Watching movies, series, anime and more in RSR' },
 ];
 
 export const handle: Handle = {
